@@ -7,7 +7,7 @@ const Interceptors = () => {
   const fetchData = async () => {
     try {
       const resp = await authFetch("/react-store-products");
-      // in order to test the error use wrong route insted
+      // in order to test the error use wrong route instead
       // e.g "/react-store-productsssss"
     } catch (error) {
       console.log(error);
